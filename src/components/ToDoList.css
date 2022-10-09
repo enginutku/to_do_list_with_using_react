@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.container {
+    width: 100%;
+}
+
+.todolist {
+    max-width: 800px;
+    width: 100%;
+    min-height: 400px;
+    box-shadow: 0 2px 6px #555;
+    margin: 50px auto;
+    padding: 50px;
+    position: relative;
+    left: 490px;
+    top: 25px;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.addingtodo {
+    width: 520px;
+    height: 45px;
+    position: relative;
+    left: 15px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    border: none;
+    border-bottom: solid 3px #555;
+}
+
+.restorebutton {
+    position: relative;
+    left: 55px;
+    width: 65px;
+    height: 35px;
+    border: 2px solid #555;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Montserrat';
+}
+
+.createbutton:hover {
+    background-color: #555;
+    color: #FFF;
+    transition: 0.3s;
+}
+
+.logoutrestore {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #555;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 15px;
+    top: 25px;
+    margin: 5px;
+}
+
+.logoutrestore:hover {
+    background-color: #555;
+    color: #FFF;
+    transition: 0.3s;
+}
